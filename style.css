@@ -1,0 +1,19 @@
+body {
+  font-family: 'Peralta', cursive;
+  width: 300px;
+  height: 300px;
+  background: rgb(50,100,76);
+  background: radial-gradient(circle, rgba(50,100,76,1) 0%, rgba(2,45,35,1) 100%);
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  display: inner-flex;
+  margin: auto 10px;
+  font-size: 22px;
+  color: whitesmoke;
+  border-radius: 6px;
+  border: 1px solid lightblue;
+  padding: 10px;
+}
